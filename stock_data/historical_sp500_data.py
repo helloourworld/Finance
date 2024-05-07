@@ -5,7 +5,7 @@ import sys
 import os
 parent_dir = os.path.dirname(os.getcwd())
 sys.path.append(parent_dir)
-import tickers as ti  # Import custom module to get S&P 500 tickers
+import utils.tickers as ti  # Import custom module to get S&P 500 tickers
 
 # Override the default pandas_datareader method to use Yahoo Finance as the data source
 yf.pdr_override()

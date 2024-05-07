@@ -4,7 +4,7 @@ import pandas as pd
 import datetime
 from socket import gaierror
 from pandas_datareader._utils import RemoteDataError
-import tickers as ti
+import utils.tickers as ti
 
 # Fetches stock data for a given ticker.
 def get_stock_data(ticker, start, end):

@@ -6,7 +6,7 @@ from math import sqrt
 import yfinance as yf
 import datetime as dt
 from pandas_datareader import data as pdr
-import tickers as ti
+import utils.tickers as ti
 
 # Load stock data from Dow Jones Index
 yf.pdr_override()

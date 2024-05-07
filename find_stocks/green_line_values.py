@@ -6,7 +6,7 @@ import sys
 import os
 parent_dir = os.path.dirname(os.getcwd())
 sys.path.append(parent_dir)
-import tickers as ti
+import utils.tickers as ti
 
 # Set the date range for analysis
 now = dt.date.today()

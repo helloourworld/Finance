@@ -8,7 +8,7 @@ import sys
 import os
 parent_dir = os.path.dirname(os.getcwd())
 sys.path.append(parent_dir)
-import tickers as ti
+import utils.tickers as ti
 
 # Override yfinance API for pandas datareader
 yf.pdr_override()

@@ -6,7 +6,7 @@ import os
 parent_dir = os.path.dirname(os.getcwd())
 sys.path.append(parent_dir)
 import ta_functions as ta
-import tickers as ti
+import utils.tickers as ti
 
 # Get dates for the past year
 start_date = datetime.datetime.now() - datetime.timedelta(days=365)

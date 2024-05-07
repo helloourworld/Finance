@@ -9,7 +9,7 @@ import os
 yf.pdr_override()
 parent_dir = os.path.dirname(os.getcwd())
 sys.path.append(parent_dir)
-import tickers as ti
+import utils.tickers as ti
 
 # Setting up variables
 tickers = ti.tickers_sp500()

@@ -12,7 +12,7 @@ import sys
 import os
 parent_dir = os.path.dirname(os.getcwd())
 sys.path.append(parent_dir)
-import tickers as ti
+import utils.tickers as ti
 yf.pdr_override()
 
 # Define stock tickers and time interval

@@ -5,7 +5,7 @@ import sys
 import os
 parent_dir = os.path.dirname(os.getcwd())
 sys.path.append(parent_dir)
-import tickers as ti
+import utils.tickers as ti
 
 # Create an instance of the financial model prep class for API access
 demo = financial_model_prep()
